@@ -2,14 +2,30 @@
 <html lang="en">
 <head>
     <style>
-        h1{
-            color: rgb(3, 77, 216); align-items: center; text-align: center; font-size: 50px; font-family: ro, sans-serif;
+        h1 {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Roboto', sans-serif;
+            animation: fadeIn 2s ease-in;
         }
-        h2{
-            color: rgb(3, 77, 216); align-items: center; text-align: center; font-size: 50px; font-family: ro, sans-serif;
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
-        img{
-            display: block; margin-left: auto; margin-right: auto; font-size: 50px; font-family: ro, sans-serif;
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+        body {
+            background-color: rgb(34, 34, 34); /* Dark background */
         }
     </style>
     <meta charset="UTF-8">
@@ -17,8 +33,8 @@
     <title>presentacion</title>
 </head>
 <body>
-    <h1>hola</h1>
-    <h2>Soy Luis Carvajal</h2>
-    <img src="zzz.jpg" alt="zzz">
+    <h1>Luis Carvajal Hinojosa</h1>
+    <img src="dorime.jpg" alt="zzz">
 </body>
 </html>
+
